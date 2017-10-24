@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("backround.jpg");
+}
+.header {
+	background-color: black;
+}
+.banner {
+	width: 100%;
+}
+
+.backround {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100vh;
+	width: 60%;
+}
+
+.title {
+	text-align: center;
+	margin: 0;
+	font-size: 200%;
+}
+
+.author{
+	text-align: center;
+	margin-top: 2px;
+	font-size: 120%;
+}
+
+.nav-bar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #659DBD;
+    display: flex;
+	justify-content: space-around;
+}
+
+.article {
+	background-color: #FFFFFF;
+	margin-bottom: 100px;
+	border-top: 2px solid #F5F5F5;
+	padding: 20px;
+}
+
+.buttons {
+	text-align: center;
+	width: 100%;
+	flex-direction: row;
+	line-height: 50px;
+}
+
+.buttons:hover {
+	background-color: blue;
+}
+
+a {
+	color: black;
+	text-decoration: none;	
+	width: 100%;
+}
+
+
+.editList {
+	padding: 0;
+	list-style-type:none;
+}
+
+.theElement {
+	padding: 10px;
+	border-top: 2px solid black;
+}
+
+.editHeader {
+	text-align: center;
+	font-size: 50px;
+}
+
+.elementBTN {
+	float: right;
+}

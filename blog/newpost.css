@@ -1,0 +1,29 @@
+.input {
+	margin: 10px;
+}
+.input-title {
+	text-align:center;
+	height: 50px;
+	width: 400px;
+}
+
+.input-author {
+	text-align: center;
+}
+
+.input-message {
+
+	height: 100px;
+	width: 250px;
+}
+
+
+.input-form {
+  	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	padding: 10px;
+	text-align: center;
+}
