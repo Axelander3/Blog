@@ -5,6 +5,7 @@ body, html {
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 	background-image: url("backround.jpg");
+	background-attachment: fixed;
 }
 .header {
 	background-color: black;
@@ -34,6 +35,10 @@ body, html {
 }
 
 .nav-bar {
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
 	list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,9 +46,11 @@ body, html {
     background-color: #659DBD;
     display: flex;
 	justify-content: space-around;
+	width: 100%;
 }
 
 .article {
+	margin: 50px;
 	background-color: #FFFFFF;
 	margin-bottom: 100px;
 	border-top: 2px solid #F5F5F5;
@@ -79,6 +86,7 @@ a {
 }
 
 .editHeader {
+	padding-top: 50px;
 	text-align: center;
 	font-size: 50px;
 }
